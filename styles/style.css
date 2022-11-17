@@ -1,0 +1,40 @@
+#logo {
+    display: inline-flex;
+    float: left;
+    width: auto;
+}
+
+#backContainer>p {
+    display: inline;
+}
+
+#backBtn {
+    display: inline;
+}
+
+.py-3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* small */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* medium */
+@media screen and (max-width: 900px) {
+    #logo {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
